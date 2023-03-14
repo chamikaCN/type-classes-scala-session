@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fed6d02b-6e88-4b3d-8f9b-bc779a50466a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/TypeClass.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/TypeClass2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/TypeClass3.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/TypeClass4.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/TypeClass5.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lib/_1_Show_Functionality.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lib/_2_Overloading.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lib/_3_Implicit_Parameters.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lib/_4_Type_Classes.scala" afterDir="false" />
+    <list default="true" id="fed6d02b-6e88-4b3d-8f9b-bc779a50466a" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lib/_2_5_Issues.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/lib/_2_Overloading.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lib/_2_Overloading.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +58,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.41264367"
+    "project.structure.side.proportion": "0.41264367",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -86,7 +70,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._4_Type_Classes">
+  <component name="RunManager" selected="Application._2_5_Issues">
     <configuration name="TypeClass3" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="TypeClass3" />
       <module name="Type-Class" />
@@ -96,6 +80,19 @@
     </configuration>
     <configuration name="_1_Show_Functionality" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lib._1_Show_Functionality" />
+      <module name="Type-Class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2_5_Issues" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lib._2_5_Issues" />
       <module name="Type-Class" />
       <extension name="coverage">
         <pattern>
@@ -135,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._2_5_Issues" />
         <item itemvalue="Application._4_Type_Classes" />
         <item itemvalue="Application._2_Overloading" />
         <item itemvalue="Application._1_Show_Functionality" />
@@ -151,6 +149,22 @@
       <option name="presentableId" value="Default" />
       <updated>1678614136372</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1678769504690</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678769504690</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

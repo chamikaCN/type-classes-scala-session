@@ -14,4 +14,10 @@ object _2_Overloading {
     visualize("TEST STRING")
     visualize(Person("John",15))
   }
+
+  // things like import statements won’t be able to tell them apart.
+
+  // can not use default parameters with overloading
+
+  // greater chance that ambiguity will arise when trying to apply implicit views.
 }
