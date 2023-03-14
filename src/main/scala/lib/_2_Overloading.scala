@@ -10,9 +10,9 @@ object _2_Overloading {
   def visualize(value: Person): String = s"I am ${value.name}"
 
   def main(args: Array[String]): Unit = {
-    visualize(3)
-    visualize("TEST STRING")
-    visualize(Person("John",15))
+    println(visualize(3))
+    println(visualize("TEST STRING"))
+    println(visualize(Person("John",15)))
   }
 
   // things like import statements won’t be able to tell them apart.
